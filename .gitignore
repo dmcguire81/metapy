@@ -16,7 +16,30 @@ biicode.conf
 bii/
 bin/
 
+# Build
 dist/
 downloads/
 multibuild/
 terryfy/
+
+# Tutorials
+tutorials/ceeaus-idx/
+tutorials/ceeaus.tar.gz
+tutorials/ceeaus/
+tutorials/greedy-constituency-parser.tar.gz
+tutorials/greedy-perceptron-tagger.tar.gz
+tutorials/headlines.tar.gz
+tutorials/headlines/
+tutorials/lda-cvb0.phi.bin
+tutorials/lda-cvb0.theta.bin
+tutorials/lemur-stopwords.txt
+tutorials/parser/
+tutorials/perceptron-tagger/
+tutorials/sigir18-topic-models/cranfield-idx/
+tutorials/sigir18-topic-models/cranfield.toml
+tutorials/sigir18-topic-models/data/
+tutorials/sigir18-topic-models/lda-pgibbs-nips.phi.bin
+tutorials/sigir18-topic-models/lda-pgibbs-nips.theta.bin
+tutorials/sigir18-topic-models/nips-idx/
+tutorials/sigir18-topic-models/nips.toml
+tutorials/sigir18-topic-models/sigir18-tutorial.tar.gz
