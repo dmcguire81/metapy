@@ -15,3 +15,8 @@ data/housing
 biicode.conf
 bii/
 bin/
+
+dist/
+downloads/
+multibuild/
+terryfy/
