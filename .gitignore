@@ -26,6 +26,12 @@ terryfy/
 tutorials/ceeaus-idx/
 tutorials/ceeaus.tar.gz
 tutorials/ceeaus/
+tutorials/cranfield-config.toml
+tutorials/cranfield-idx/
+tutorials/cranfield.tar.gz
+tutorials/cranfield/
+tutorials/crf.tar.gz
+tutorials/crf/
 tutorials/greedy-constituency-parser.tar.gz
 tutorials/greedy-perceptron-tagger.tar.gz
 tutorials/headlines.tar.gz
