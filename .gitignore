@@ -36,6 +36,7 @@ tutorials/greedy-constituency-parser.tar.gz
 tutorials/greedy-perceptron-tagger.tar.gz
 tutorials/headlines.tar.gz
 tutorials/headlines/
+tutorials/KDD-2017-config.toml
 tutorials/lda-cvb0.phi.bin
 tutorials/lda-cvb0.theta.bin
 tutorials/lemur-stopwords.txt
