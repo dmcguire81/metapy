@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip
 
 WORKDIR /metapy
-RUN git submodule update --init --recursive
+RUN git submodule update --init --recursive -- deps/pybind11
 RUN mkdir build
 
 WORKDIR /metapy
