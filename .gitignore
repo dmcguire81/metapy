@@ -9,6 +9,7 @@ doc/
 *.o
 *.class
 .*
+!.github/
 data/ceeaus
 data/breast-cancer
 data/housing
