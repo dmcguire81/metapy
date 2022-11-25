@@ -42,4 +42,4 @@ jobs:
           context: .
           platforms: linux/arm64,linux/amd64
           push: true
-          tags: josecols/metapy:0.2.13
+          tags: josecols/metapy:0.2.14
