@@ -12,16 +12,16 @@ library.
 
 ## Getting Started (Docker)
 
-A [Docker](https://www.docker.com/) image with a pre-built version of MeTA and `metapy` is available on [Docker Hub](https://hub.docker.com/r/josecols/metapy/tags)
+A [Docker](https://www.docker.com/) image with a pre-built version of MeTA and `metapy` is available on [GitHub Container Registry](https://github.com/illinois/metapy/pkgs/container/metapy/)
 
 ```bash
-docker pull josecols/metapy:0.2.14
+docker pull ghcr.io/illinois/metapy:0.2.14
 ```
 
 This Docker image simplifies the execution of Python scripts that rely on `metapy`. For example, to run CS 410 Text Information Systems MP assignments, simply run the following command at the MP directory's root.
 
 ```bash
-docker run -it --rm --name metapy --mount type=bind,source=$(pwd),target=/app --entrypoint bash josecols/metapy:0.2.14
+docker run -it --rm --name metapy --mount type=bind,source=$(pwd),target=/app --entrypoint bash ghcr.io/illinois/metapy:0.2.14
 ```
 
 Then, you can run the Python scripts as usual, e.g., `python mp1.py`. Keep in mind that any changes to files in your current directory that occur within the container will be automatically reflected on your host file system.
