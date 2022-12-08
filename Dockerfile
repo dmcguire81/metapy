@@ -1,4 +1,4 @@
-FROM ghcr.io/illinois/meta:3.0.2 as base
+FROM josecols/meta:3.0.2 as base
 
 ARG TARGETARCH
 COPY . /metapy
